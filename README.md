@@ -77,6 +77,9 @@ This project documents the systematic analysis and exploitation of **8 Android C
 - Sensitive data exposed in system storage
 
 ---
+
+## 🧠 Example Attack Flow
+
 APK
 ↓
 Static Analysis (apktool / smali)
@@ -132,5 +135,5 @@ This project demonstrates **hands-on Android security expertise**, including:
 - Offensive techniques used for defensive insight
 
 These skills directly translate to **Mobile AppSec, Red Team, and Security Engineering roles**.
-## 🧠 Example Attack Flow
+
 
