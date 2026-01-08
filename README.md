@@ -57,28 +57,28 @@ This project documents the systematic analysis and exploitation of **8 Android C
 
 ## Representative Findings
 
-### 🔴 Insecure Cryptographic Practices
+### Insecure Cryptographic Practices
 - Hardcoded AES keys and IVs in smali code
 - Reusable salts and static encryption material
 - Plaintext credentials stored locally
 
-### 🔴 Broken Secret Management
+### Broken Secret Management
 - Secrets embedded in assets and resources
 - Sensitive values retrievable via runtime hooks
 - Keys stored inside native libraries
 
-### 🔴 JNI & Native Code Weaknesses
+### JNI & Native Code Weaknesses
 - Sensitive logic hidden in `.so` files
 - Flags reconstructed via native disassembly
 - Security through obscurity failures
 
-### 🔴 Device-Level Weaknesses
+### Device-Level Weaknesses
 - Emulator rooting allowed full bypass of lock screen
 - Sensitive data exposed in system storage
 
 ---
 
-## 🧠 Example Attack Flow
+## Example Attack Flow
 
 APK
 ↓
@@ -124,7 +124,7 @@ Decrypt / reconstruct flag
 
 ---
 
-## ⭐ Why This Project Matters
+## Why This Project Matters
 
 This project demonstrates **hands-on Android security expertise**, including:
 
